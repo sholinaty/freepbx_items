@@ -33,7 +33,6 @@ ami.on('ami_data', (data) => {
                 if(data.destinationcontext === 'ext-local') {
                     //console.log("Missed Call Found")
                     //console.log(missedCall)
-                    //flexie.sendMissedCallToFlexie(dynamicEndpointThrottle, missedCall)
                 }
 
             } catch(e) {
