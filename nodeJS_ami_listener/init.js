@@ -1,7 +1,5 @@
 const AsteriskAmi = require('asterisk-ami')
 const config = require('./config')
-const axios = require('axios')
-const Bottleneck = require("bottleneck")
 
 // Initiate a connection with Asterisk
 const ami = new AsteriskAmi({
