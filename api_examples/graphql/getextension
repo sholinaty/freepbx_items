@@ -1,0 +1,15 @@
+HTTP POST to {{pbx}}/admin/api/api/gql
+
+body: Graphql:
+
+{
+  fetchExtension(extensionId: "1234") {
+    status
+    message
+    extensionId
+    user {
+      name
+      extPassword
+    }
+    }
+  }
